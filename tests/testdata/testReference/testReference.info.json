@@ -1,0 +1,60 @@
+{
+    "name": "testReference",
+    "description": "Test reference",
+    "created": "2022-09-15T16:01:43.729870",
+    "fasta": "testReference.fa",
+    "chrom.sizes": "testReference.chrom.sizes",
+    "samtools.faidx": "testReference.fa.fai",
+    "bed": "testReference.bed",
+    "gatk.dict": "testReference.dict",
+    "juicer.rs": {
+        "HindIII": {
+            "map": "juicer.rs/testReference.rs.HindIII.txt",
+            "site": "AAGCTT"
+        },
+        "DpnII": {
+            "map": "juicer.rs/testReference.rs.DpnII.txt",
+            "site": "GATC"
+        },
+        "MboI": {
+            "map": "juicer.rs/testReference.rs.MboI.txt",
+            "site": "GATC"
+        },
+        "Sau3AI": {
+            "map": "juicer.rs/testReference.rs.Sau3AI.txt",
+            "site": "GATC"
+        },
+        "Arima": {
+            "map": "juicer.rs/testReference.rs.Arima.txt",
+            "site": "GA(([ACGT]T)|(TC))"
+        }
+    },
+    "capture": {
+        "testCapture": {
+            "name": "testCapture",
+            "description": "Test capture",
+            "created": "2022-09-15T16:02:27.540387",
+            "capture": "capture/testCapture/testCapture.capture.bed",
+            "not.capture": "capture/testCapture/testCapture.not.capture.bed"
+        }
+    },
+    "chrom.sizes.dict": {
+        "chrI": 230218,
+        "chrII": 813184,
+        "chrIII": 316620,
+        "chrIV": 1531933,
+        "chrIX": 439888,
+        "chrV": 576874,
+        "chrVI": 270161,
+        "chrVII": 1090940,
+        "chrVIII": 562643,
+        "chrX": 745751,
+        "chrXI": 666816,
+        "chrXII": 1078177,
+        "chrXIII": 924431,
+        "chrXIV": 784333,
+        "chrXV": 1091291,
+        "chrXVI": 948066,
+        "chrM": 85779
+    }
+}

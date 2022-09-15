@@ -1,0 +1,31 @@
+{
+	"ID": "Scc3-WXS",
+	"Description": "Extensive sampling of Saccharomyces cerevisiae in Taiwan reveals ecology and evolution of predomesticated lineages (SRX11913458)",
+	"ParentDir": "testoutput",
+	"Input": [
+		{
+			"Files": {
+				"R1": "testdata/test_scc3_R1.fastq.gz",
+				"R2": "testdata/test_scc3_R2.fastq.gz",
+				"Unpaired": null
+			},
+			"RG": {
+				"Sample": "Scc3",
+				"Library": "LY0200-I",
+				"Platform": "ILLUMINA",
+				"Instrument": "IlluminaHiSeq2500",
+				"Lane": "1",
+				"Barcode": "ACGTAT"
+			},
+			"Adapter": "illumina"
+		}
+	],
+	"Reference": {
+		"GenomeInfo": "testdata/testReference/testReference.info.json",
+		"Capture": "testCapture"
+	},
+	"Config": {
+		"Threads": 4,
+		"RemoveTempFiles": true
+	}
+}
